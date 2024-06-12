@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "docs1",
+  "info": {
+    "singularName": "docs",
+    "pluralName": "docs1",
+    "displayName": "Docs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Documentum": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}
